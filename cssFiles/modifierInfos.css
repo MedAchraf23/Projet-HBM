@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+.data label {
+    font-weight: bold;
+    margin: 12px;
+
+}
+
+.box{
+    
+    margin: auto;
+    margin-top: 60px;
+    width: 700px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: #eee;
+    border-radius: 10px ; 
+      
+    
+    }
+
+.btn{
+background-color: #38703a;
+color: white; 
+border: 1px solid gray;  
+border-radius: 8px ;
+font-size: medium;
+padding: 8px;
+font-weight: lighter;
+cursor: pointer;
+margin-top: 15px;
+}
+.btn:hover {
+    background-color: #45a049;
+  }
+
+.btn1{
+background-color: #c51414;
+color: white; 
+border: 1px solid gray;  
+border-radius: 8px ;
+font-size: medium;
+padding: 8px;
+font-weight: lighter;
+cursor: pointer;
+margin-top: 15px;
+}
+.btn1:hover {
+    background-color: #dd0606;
+}
+
+  
+
+#warning , span{
+    color: rgb(227, 0, 0);
+}
+
+input[type=txt],input[type=password],input[type=tel],input[type=date],input[type=number]{
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 8px;
+    height: 35px;
+    font-weight: lighter;
+}
+input[type=file]{
+    font-weight: bold;
+    cursor: pointer;
+}
+#erreur{
+    margin-top:3px;
+    color: rgb(227, 0, 0);
+    display: none;
+  }
+#erreur2{
+    margin-top:3px;
+    color: rgb(227, 0, 0);
+    display: none;
+  }
+ 

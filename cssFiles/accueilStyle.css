@@ -1,0 +1,246 @@
+body{
+padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px ;
+line-height: 1.5;
+background-color: #f4f4f4;
+
+}
+/*Global*/
+.container{
+width: 80%;
+margin:  auto;
+overflow: hidden;
+}
+
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+/*header*/
+
+header{
+  background: rgb(84, 124, 156);
+  color: white;
+  border-bottom: rgb(1, 1, 31) 3px solid;
+  min-height: auto;
+  
+
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+
+header li {
+float: left;
+display: inline;
+margin: 0 14px 13px 14px;
+font-size: 2.3vh;
+
+}
+
+header nav{
+  float: right;
+  margin-top: 35px;
+}
+header #logo{
+  float: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header #Hlogo{
+  color: rgb(8, 8, 63) ;
+}
+header #logo a:hover{
+  color: rgb(8, 8, 63) ;
+  transition: color 0.5s;
+}
+
+
+header li a:hover{
+  color: rgb(8, 8, 63);
+  font-weight: bold;
+  
+}
+
+#showcase{
+  min-height: 30  0px;
+  background:url(../images/hospitalbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 -120px;
+  text-align: left;
+  color: rgb(1, 1, 31);
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+}
+#showcase h1{
+  font-weight: bolder;
+  font-size: 4.5vw;
+  
+  
+
+}
+#showcase h6{
+  font-size: 1.8vw;
+  font-weight: bolder;
+  
+  
+}
+
+#hospitalslist h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(240, 240, 240);
+  font-size: 30px;
+  color: rgb(1, 1, 31);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  height: 45px;
+  border-bottom: rgb(1, 1, 31) 3px solid;
+  
+  
+}
+
+
+
+
+#hospitalslist .accordion{
+  
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+}
+
+#hospitalslist .active, #hospitalslist .accordion:hover {
+  background-color: #ccc;
+}
+#hospitalslist .accordion:after{
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#hospitalslist .active:after{
+  content: "\2212";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#hospitalslist .details{
+  padding: 0 18px;
+  background-color: #f4f4f4;
+  max-height: 5px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#hospitalslist li {
+  font-weight: bold;
+  line-height: 4;
+}
+
+#hospitalslist .details ul li a{
+text-decoration: none;
+text-transform: uppercase;
+color: rgb(25, 25, 94);
+padding-top: 10px;
+transition: color 0.2s ;
+
+}
+
+#hospitalslist .details ul li a:hover{
+  color: rgb(54, 116, 177);
+  
+}
+
+footer {
+  background: rgb(84, 124, 156);
+  color: white;
+  border-top: rgb(1, 1, 31) 3px solid;
+  min-height: 300px;
+}
+
+footer .container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+}
+
+footer .fa {
+float: left;
+display: inline;
+font-size: 4.5vh;
+padding: 2vh 2vh 2vh 2vh;
+color: rgb(8, 8, 63);
+text-decoration: none;
+margin-bottom: 15px;
+
+}
+
+footer a:hover{
+  color: #ccc;
+  transition: color 0.5s;
+}
+
+footer li{
+float: left;
+}
+
+footer h3{
+  /*float: left;*/
+  
+  font-weight: lighter;
+  margin-top: 15px;
+  font-size: 30px;
+  text-transform:uppercase ;
+  color: rgb(8, 8, 63);
+  
+  
+}
+
+#contact{
+  min-height: 100px;
+  border-bottom: #eee solid 2px;
+}
+footer #about h3{
+  font-weight: lighter;
+  float: left;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-right: 30px;
+  font-size: 30px;
+  color: rgb(8, 8, 63);
+  
+
+}
+footer #about p{
+  float: right;
+  color: rgb(8, 8, 63);
+  margin-top: 10px;
+  float: left;
+
+  
+}

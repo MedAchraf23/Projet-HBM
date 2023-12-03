@@ -1,0 +1,113 @@
+p{
+	line-height: 20px;
+	color: #777;
+}
+body{
+	font-family: Arial,sans-serif;
+	font-size: 15px;
+
+}
+/*header*/
+.orange{
+ color: #ffa500;
+}
+h1{
+	font-family: 'Crete Round';
+	font-size: 45px;
+	color: #444;
+}
+header h1{
+	height: 120px;
+	float: left;
+	margin-top: 32px;
+}
+/*main image*/
+#main-image{
+	height: 500px;
+	background: url('../images/hop.jpg');
+	background-repeat: no-repeat;
+	background-size: 1550px 500px;
+}
+h2{
+	font-size: 55px;
+	color: #444;
+}
+#main-image h2{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 150px 0 40px 0;
+	margin-bottom: 20px;
+}
+.button-1{
+	width: 120px;
+	height: 50PX;
+	background-color: #ffa500;
+	color: #fff;
+	font-size: 20PX;
+	margin: 0 auto;
+	line-height: 50PX;
+	text-align: center;
+	border-radius: 3PX;
+	display: block;
+}
+.button-1:hover{
+  background: #02b8dd;
+}
+.clear{
+	clear: both;
+}
+
+
+/*steps*/
+#steps {
+	background-color: #efefef;
+	padding: 60PX 0;
+}
+#steps article{
+	width: 460PX;
+	height: 270PX;
+	float: left;
+	border-radius: 10PX;
+}
+#steps article:first-child{
+	margin-right: 20PX;
+}
+#steps h4{
+	font-family: 'Crete Round';
+	font-size: 10px;
+	color: #444;
+}
+
+
+.overlay{
+	background-color: rgba(255, 255, 255, 0.95);
+	height: 100%;
+	width: 190PX;
+	padding: 20PX;
+	border-radius: 10PX 0 0 10PX;
+	text-align: center;
+	box-sizing: border-box;
+}
+article h4 {
+	border-bottom: 1PX solid #ddd;
+	padding-bottom: 20PX;
+	text-transform: uppercase;
+	margin-bottom: 20PX;
+	text-align: center;
+}
+#steps p{
+	text-align: center;
+	margin-bottom: 20PX;
+}
+.button-2{
+	color: #fff;
+	background-color: #FFA500 ;
+	padding: 6PX 20PX;
+	border-radius: 3PX;
+}
+.button-2:hover{
+	color: #fff;
+	background-color: #02b8dd;
+}
+

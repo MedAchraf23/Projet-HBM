@@ -1,0 +1,244 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px ;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    
+    }
+    /*Global*/
+    .container{
+    width: 80%;
+    margin:  auto;
+    overflow: hidden;
+    }
+    
+    ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    }
+    /*header*/
+    
+    header{
+      background: rgb(84, 124, 156);
+      color: white;
+      border-bottom: rgb(1, 1, 31) 3px solid;
+      min-height: auto;
+      
+    
+    }
+    
+    header a {
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      
+    }
+    
+    header li {
+    float: left;
+    display: inline;
+    margin: 0 14px 13px 14px;
+    font-size: 2.3vh;
+    
+    }
+    
+    header nav{
+      float: right;
+      margin-top: 35px;
+    }
+    header #logo{
+      float: left;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    
+    header #Hlogo{
+      color: rgb(8, 8, 63) ;
+    }
+    header #logo a:hover{
+      color: rgb(8, 8, 63) ;
+      transition: color 0.5s;
+    }
+    
+    
+    header li a:hover{
+      color: rgb(8, 8, 63);
+      font-weight: bold;
+      
+    }
+
+
+
+
+
+#hospitalslist h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(240, 240, 240);
+  font-size: 30px;
+  color: rgb(1, 1, 31);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  height: 45px;
+  border-bottom: rgb(1, 1, 31) 3px solid;
+  
+  
+}
+
+
+
+
+#hospitalslist .accordion{
+  
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+}
+
+#hospitalslist .active, #hospitalslist .accordion:hover {
+  background-color: #ccc;
+}
+#hospitalslist .accordion:after{
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#hospitalslist .active:after{
+  content: "\2212";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+#hospitalslist .details{
+  padding: 0 18px;
+  background-color: #f4f4f4;
+  max-height: 5px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#hospitalslist li {
+  font-weight: bold;
+  line-height: 4;
+}
+
+#hospitalslist .details #modifierhop{
+text-decoration: none;
+text-transform: uppercase;
+color: rgb(25, 25, 94);
+padding-top: 10px;
+transition: color 0.2s ;
+
+}
+
+#hospitalslist .details ul li #modifierhop:hover{
+  color: rgb(54, 116, 177);
+  
+}
+
+#hospitalslist .details #supprimerhop{
+text-decoration: none;
+text-transform: uppercase;
+color: rgb(142, 6, 6);
+padding-top: 10px;
+transition: color 0.2s ;
+
+}
+
+#hospitalslist .details ul li #supprimerhop:hover{
+color: rgb(209, 13, 13);
+
+}
+
+#hospitalslist .details #gerersvchop{
+text-decoration: none;
+text-transform: uppercase;
+color: rgb(78, 78, 78);
+padding-top: 10px;
+transition: color 0.2s ;
+
+}
+
+#hospitalslist .details ul li #gerersvchop:hover{
+  color: rgb(154, 154, 154);
+    
+}
+
+#hospitalslist  #ajouter{
+text-decoration: none;
+text-transform: uppercase;
+color: rgb(8, 8, 63);
+padding-top: 10px;
+transition: color 0.2s ;
+
+}
+
+#hospitalslist  #ajouter:hover{
+    color: rgb(84, 124, 156);
+    
+}
+
+#retourner{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(150, 4, 4);
+  padding-top: 10px;
+  transition: color 0.2s ;
+  
+  }
+  
+#retourner:hover{
+      color: red;
+      
+  }
+
+.btn{
+  background-color: #38703a;
+  color: white; 
+  border: 1px solid gray;  
+  border-radius: 8px ;
+  font-size: medium;
+  padding: 8px;
+  font-weight: lighter;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  .btn:hover {
+      background-color: #45a049;
+    }
+  
+  .btn1{
+  background-color: #c51414;
+  color: white; 
+  border: 1px solid gray;  
+  border-radius: 8px ;
+  font-size: medium;
+  padding: 8px;
+  font-weight: lighter;
+  cursor: pointer;
+  margin-top: 15px;
+  }
+  .btn1:hover {
+      background-color: #dd0606;
+  }
+
+
+
